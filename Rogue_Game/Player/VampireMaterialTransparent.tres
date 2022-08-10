@@ -1,0 +1,6 @@
+[gd_resource type="SpatialMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://Player/Vampire A Lusth/textures/Vampire_diffuse_transparent.png" type="Texture" id=1]
+
+[resource]
+albedo_texture = ExtResource( 1 )

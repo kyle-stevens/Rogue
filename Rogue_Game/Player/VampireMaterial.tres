@@ -1,0 +1,19 @@
+[gd_resource type="SpatialMaterial" load_steps=5 format=2]
+
+[ext_resource path="res://Player/Vampire A Lusth/textures/Vampire_normal.png" type="Texture" id=1]
+[ext_resource path="res://Player/Vampire A Lusth/textures/Vampire_diffuse.png" type="Texture" id=2]
+[ext_resource path="res://Player/Vampire A Lusth/textures/Vampire_specular.png" type="Texture" id=3]
+[ext_resource path="res://Player/Vampire A Lusth/textures/Vampire_emission.png" type="Texture" id=4]
+
+[resource]
+albedo_texture = ExtResource( 2 )
+metallic_texture = ExtResource( 3 )
+emission_enabled = true
+emission = Color( 0, 0, 0, 1 )
+emission_energy = 1.0
+emission_operator = 0
+emission_on_uv2 = false
+emission_texture = ExtResource( 4 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 1 )
