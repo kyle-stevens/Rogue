@@ -1,8 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://1m_cube_scale.dae" type="PackedScene" id=1]
 [ext_resource path="res://Player/Rogue.gd" type="Script" id=2]
-[ext_resource path="res://Models/vampire_model/vampire_model.glb" type="PackedScene" id=3]
 
 [sub_resource type="CapsuleShape" id=2]
 radius = 0.5
@@ -23,8 +22,6 @@ shape = SubResource( 1 )
 
 [node name="player_model" type="Spatial" parent="."]
 transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
-
-[node name="vampire_model" parent="player_model" instance=ExtResource( 3 )]
 
 [node name="rotation_helper" type="Spatial" parent="."]
 
