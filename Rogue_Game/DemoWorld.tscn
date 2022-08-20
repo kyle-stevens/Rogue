@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://PlayerCharacter.tscn" type="PackedScene" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 136, 20 )
+
+[node name="DemoWorld" type="Node2D"]
+
+[node name="PlayerCharacter" parent="." instance=ExtResource( 1 )]
+position = Vector2( 576, 336 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 448.0
+margin_top = 408.0
+margin_right = 720.0
+margin_bottom = 448.0
+
+[node name="Static2D" type="StaticBody2D" parent="ColorRect"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ColorRect/Static2D"]
+position = Vector2( 136, 20 )
+shape = SubResource( 1 )

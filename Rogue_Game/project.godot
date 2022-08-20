@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="rogue"
-run/main_scene="res://Player/Rogue.tscn"
+run/main_scene="res://DemoWorld.tscn"
 config/icon="res://icon.png"
 
 [physics]
