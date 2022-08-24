@@ -11,14 +11,16 @@ polygon = PoolVector2Array( 0, 16, 272, 16, 272, 24, 0, 24 )
 [node name="DemoWorld" type="Node2D"]
 
 [node name="background" type="ColorRect" parent="."]
+light_mask = 3
 margin_right = 1336.0
 margin_bottom = 1832.0
-color = Color( 0.235294, 0.235294, 0.235294, 1 )
+color = Color( 0, 0, 0, 1 )
 
 [node name="PlayerCharacter" parent="." instance=ExtResource( 1 )]
 position = Vector2( 576, 336 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
+light_mask = 3
 margin_left = 192.0
 margin_top = 1256.0
 margin_right = 464.0
